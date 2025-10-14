@@ -1,0 +1,13 @@
+.site-footer { background: #0f172a; color: #cbd5e1; padding: 2.5rem 0 1rem; margin-top: auto; }
+.footer-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.25rem;
+    align-items: start;
+    padding-bottom: 1rem;
+}
+.site-footer h3, .site-footer h4 { color: #fff; margin-bottom: 0.6rem; }
+.footer-list { list-style: none; color: #cbd5e1; }
+.footer-list li { margin-bottom: 0.45rem; }
+.muted { color: #94a3b8; max-width: 240px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.06); padding-top: 1rem; text-align:center; color:#94a3b8; font-size:0.9rem; }
