@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Hero from './components/Hero';
+import FAQ from './components/FAQ';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './index.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <Hero />
             <Contact />
             <Footer />
+            <FAQ />
         </div>
     );
 };
