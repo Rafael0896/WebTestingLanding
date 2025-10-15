@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechStack from './components/TechStack';
+import HowItWorks from './components/HowItWorks';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -13,6 +14,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <TechStack />
+            <HowItWorks />
             <FAQ />
             <Contact />
             <Footer />
