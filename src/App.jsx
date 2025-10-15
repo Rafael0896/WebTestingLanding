@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import TechStack from './components/TechStack';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -11,6 +12,7 @@ const App = () => {
         <div className="app-container">
             <Navbar />
             <Hero />
+            <TechStack />
             <FAQ />
             <Contact />
             <Footer />
