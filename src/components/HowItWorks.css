@@ -1,0 +1,26 @@
+.how-section.section { padding: 4rem 0; background: #ffffff; }
+.tabs { display:flex; gap:0.5rem; justify-content:center; margin-bottom:1.5rem; }
+.tab {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background: #eef2ff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.tab.active { background: #2563eb; color: #fff; }
+.flow-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.25rem;
+}
+.flow-item { text-align:center; padding: 1.2rem; }
+.flow-bubble {
+    margin: 0 auto 0.75rem;
+    width: 56px; height: 56px; border-radius: 50%;
+    display:flex; align-items:center; justify-content:center;
+    background: #dbeafe; color: #1e40af; font-weight:700;
+}
+.flow-bubble.alt { background: #e0e7ff; color: #4f46e5; }
+.flow-item h4 { margin-bottom:0.4rem; }
+.flow-item p { color: #6b7280; font-size:0.95rem; }
