@@ -1,0 +1,17 @@
+.contact-section.section { padding: 4rem 0; background: #2563eb; color: #fff; }
+.contact-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    align-items: start;
+}
+.contact-card {
+    background: transparent;
+    color: #fff;
+    text-align:center;
+    padding: 1.2rem;
+    border-radius: 10px;
+}
+.contact-card h4 { margin-top: 0.6rem; margin-bottom: 0.35rem; }
+.contact-card p { font-weight: 600; }
+.socials { display:flex; gap:0.7rem; justify-content:center; margin-bottom:0.6rem; }
